@@ -1,0 +1,31 @@
+package classpackage;
+
+import java.util.Scanner;
+
+public class hw_29_may {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("---metro ticket booking---");
+		System.out.println(" 1.Mumbai central  \n 2.Andheri \n 3.Borivali \n 4.churchgate");
+		
+		System.out.println("enter your choice");
+		int choice=sc.nextInt();
+		
+		switch(choice) {
+		case 1 :
+		System.out.println("Mumbai central ->₹20");break;
+		
+		case 2 :
+			System.out.println("Andheri->₹30");break;
+		
+		case 3 :
+			System.out.println("Borivali->₹40");break;
+			
+		case 4 :
+			System.out.println("churchgate->₹50\"");break;
+	}
+
+}
+}
+

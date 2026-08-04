@@ -1,0 +1,17 @@
+package classpackage;
+
+import java.util.Scanner;
+
+public class hw_29_may {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("---metro ticket booking---");
+		System.out.println(" 1.Mumbai central ->₹20 \n 2.Andheri->₹30 \n 3.Borivali->₹40 \n 4."
+				+ "churchgate->₹50");
+		
+		
+	}
+
+}
+

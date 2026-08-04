@@ -1,0 +1,89 @@
+package classpackage;
+
+import java.util.Scanner;
+
+public class hw_29_may {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		    
+		     //metro ticket booking 
+		
+//		System.out.println("---metro ticket booking---");
+//		System.out.println(" 1.Mumbai central  \n 2.Andheri \n 3.Borivali \n 4.churchgate");
+//		
+//		System.out.println("enter your choice");
+//		int choice=sc.nextInt();
+//		
+//		switch(choice) {
+//		case 1 :
+//		System.out.println("Mumbai central ->₹20");break;
+//		
+//		case 2 :
+//			System.out.println("Andheri->₹30");break;
+//		
+//		case 3 :
+//			System.out.println("Borivali->₹40");break;
+//			
+//		case 4 :
+//			System.out.println("churchgate->₹50");break;
+//			
+//		default : System.out.println("Invalid ticket");
+//	}
+			
+		
+			//   Q2 PET CARE CENTER
+//		System.out.println("---PET CARE CENTER---");
+//		System.out.println(" 1. Pet grooming \n 2.Vaccination \n 3.Pet checkup \n 4.Pet boarding");
+//		
+//
+//		System.out.println("Enter your pet service");
+//		int choice=sc.nextInt();
+//		
+//		switch(choice) {
+//		
+//		case 1:System.out.println(" Pet grooming->₹500");break;
+//		case 2:System.out.println(" Vaccination->₹1200");break;
+//		case 3:System.out.println(" Pet checkup->₹800");break;
+//		case 4:System.out.println(" Pet boarding->₹2000");break;
+//		
+//		default: System.out.println("Invalid input");
+//}
+		
+					//online food order
+		
+//		System.out.println("--- FOOD MENU---");
+//		System.out.println(" 1. PIZZA \n 2.BURGER \n 3.PASTA \n 4.SANDWICH");
+//		
+//		System.out.println("ENTER YOUR FOOD CHOICE");
+//		int choice=sc.nextInt();
+//		
+//		switch(choice) {
+//		case 1:System.out.println("PIZZA\n Total boll ₹250/-");break;
+//		case 2:System.out.println("BURGER\n Total boll ₹120/-");break;
+//		case 3:System.out.println("PASTA\n Total boll ₹180/-");break;
+//		case 4:System.out.println("SANDWICH\n Total boll ₹100/-");break;
+//       }
+		
+				//AADHAR SERVICE CENTER
+		System.out.println("MENU");
+		System.out.println("1. New aadhar registration  \n 2.Update mobile number \n 3.Update address "
+				+ "\n 4.Download aadhar \n 5.Check aadhar status");
+		
+		System.out.println("enter your choice");
+		int choice=sc.nextInt();
+		
+		System.out.print("service celected : ");
+
+		
+		switch(choice) {
+		case 1:System.out.println("New aadhar registration/-");break;
+		case 2:System.out.println("Update mobile number");break;
+		case 3:System.out.println("Update address");break;
+		case 4:System.out.println("Download aadhar");break;
+		case 5:System.out.println("Check aadhar status");break;
+
+       }
+}
+}
+
