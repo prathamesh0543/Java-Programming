@@ -7,6 +7,7 @@ public class removegiven_element {
 	public static void main(String[] args) {
 		
 //		removegiven_element
+//		one element
 		
 		int a[] = {1,2,3,3,4,5,6,5,7,8,8};
 		int elem = 3;
