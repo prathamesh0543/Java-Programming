@@ -10,8 +10,6 @@ public class Aug_12_sumOf1to50 {
 			
 		}
 		System.out.println("sum of 1 to 50 is : "+sum);
-
-
-	}
+}
 
 }
