@@ -18,7 +18,7 @@ public class aug_29_1to100prime_no {
 
             if(c==2)
             {
-                System.out.println(c+""+i);
+                System.out.println(i);
             }
         }
     }
