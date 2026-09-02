@@ -13,7 +13,7 @@ public class sep_2_ {
 			rev=rev*10+digit;
 			num=num/10;
 		}
-		System.out.println(rev);
+		System.out.println("Reverse num is : "+rev);
 	
 }
 }
