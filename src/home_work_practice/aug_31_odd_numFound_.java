@@ -12,7 +12,7 @@ public class aug_31_odd_numFound_ {
 			if(digit%2!=0)
 			{
 				c++;
-//				System.out.println(digit);
+				
 			}
 			num=num/10;
 		}
